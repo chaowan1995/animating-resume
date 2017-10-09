@@ -23,23 +23,21 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘
-* 你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* Hello，My Name is Chao Wan
+* reading Plain text is too boring
+* let me show you how I write my resume
 */
 
-/* 首先给所有元素加上过渡效果 */
+/* First I will give a transition effects */
 * {
   transition: all .3s;
 }
-/* 白色背景太单调了，我们来点背景 */
+/* White Color BackGround is a little bit too Dull */
 html {
   color: rgb(222,222,222);
   background: rgb(0,43,54);
 }
-/* 文字离边框太近了 */
+/* Damn, text is to closed */
 .styleEditor {
   padding: .5em;
   border: 1px solid;
@@ -48,11 +46,11 @@ html {
   margin: 2.5vh 5vw;
   height: 90vh;
 }
-/* 太高了 */
+/* ...Too High */
 .styleEditor {
   height: 45vh;
 }
-/* 代码高亮 */
+/* OK, Let there be some color */
 .token.selector{
   color: rgb(133,153,0);
 }
@@ -66,7 +64,7 @@ html {
   color: rgb(42,161,152);
 }
 
-/* 加点 3D 效果呗 */
+/* Then, 3D effects begin */
 html{
   perspective: 1000px;
 }
@@ -75,7 +73,7 @@ html{
   transform: rotateX(-10deg) translateZ(-50px) ;
 }
 
-/* 接下来我给自己准备一个编辑器 */
+/* Next, I prepared an editor for Myself */
 .resumeEditor{
   position: fixed;
   top: 50%; left: 0;
@@ -85,19 +83,19 @@ html{
   background: white; color: #222;
   overflow: auto;
 }
-/* 好了，我开始写简历了 */
+/* All done, I'm ready to write my Resume */
 
 
 `,
           `
-/* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
- * 简单，用开源工具翻译成 HTML 就行了
+/* what a gaffe,
+ * this markdown style is kind of stupid
+ * it would drive HR crazy
  */
 `
           ,
           `
-/* 再对 HTML 加点样式 */
+/* add some flavors to HTML */
 .resumeEditor{
   padding: 2em;
 }
@@ -128,36 +126,36 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `Chao Wan
 ----
 
-资深前端工程师，资深前端讲师
-现在在 [饥人谷](http://jirengu.com) 教前端课程。
+Computer Scientist，Full-Stack Developer，Now Working at UNDRCRWN
 
-技能
+Skills
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* Java 1.5-1.8, OOP, Multithreading, Java Collections Framework
+* HTML/HTML5, CSS/CSS3, jQuery, Bootstrap, AngularJS, Angular 2/4, React.js, Vue, JSON, XML, AJAX, D3, JavaScript, PHP
+* Node.js, Mongoose, Express, JWT, Passport
+* Python, SQL, C#, Scala, C
+* J2EE: JSP, Servlet, Hibernate, JDBC, JSTL, Spring 2.x/3.x
+* DBA: SQL, Oracle SQL, MySQL, MS SQL, PostgreSQL, MongoDB
 
-工作经历
+Technical Experience
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. UNDRCRWN  -- FullStack Developer
+2. Stowaway Cosmetics  -- Full Stack Java/Angular Developer
+3. Handshake Corp -- Senior Java/Web Developer
+4. NextCapital -- Software Developer/ UI Designer
 
-链接
+Link
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* [GitHub] https://gitlab.com/wanchaoa
+* [myPage] chaowan1995.com
 
-> 如果你喜欢这个效果，
-Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+> Please Contact Me : +1 765-719-0598
 
 `
       }
